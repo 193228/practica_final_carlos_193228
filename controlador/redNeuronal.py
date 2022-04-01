@@ -36,7 +36,7 @@ def procesadoImagenes(directorio):
     return [data,labels]
 
 def divisionDatos(data,labels):
-    (trainX, testX, trainY, testY) = train_test_split(data, labels, test_size=0.25, random_state=42)
+    (trainX, testX, trainY, testY) = train_test_split(data, labels, test_size=0.20, random_state=1)
     return [trainX,testX,trainY,testY]
 
 def entrenamientoRed(datos,model,aug,trainX,trainY,testX,testY):
