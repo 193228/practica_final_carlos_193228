@@ -94,9 +94,8 @@ def graficaPrediccion(imagen,model,lb):
     text = "{}: {:.1f}%".format(label, preds[0][i] * 100)
     cv2.putText(output, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 255), 2)
 
-    print(output)
     # mostramos la salida de la imagen
-    cv2.imshow("Image", output)
+    cv2.imshow("Image",output)
     cv2.waitKey(0)  # Delay in milliseconds
 
     plt.style.use("ggplot")

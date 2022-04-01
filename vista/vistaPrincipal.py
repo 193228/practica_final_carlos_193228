@@ -125,9 +125,9 @@ class Ui_MainWindow(object):
         self.label_3.setText(_translate("MainWindow", "Ingrese numero de generaciones"))
         self.label_4.setText(_translate("MainWindow", "Ingrese taza de aprendizaje"))
         self.radioTaza.setText(_translate("MainWindow", "Mejor Taza (0.01)"))
-        self.radioEpocas.setText(_translate("MainWindow", "Recomendado (25)"))
+        self.radioEpocas.setText(_translate("MainWindow", "Recomendado (50)"))
         self.label_5.setText(_translate("MainWindow", "Tamaño De Lote"))
-        self.radioLote.setText(_translate("MainWindow", "32 (Opcional)"))
+        self.radioLote.setText(_translate("MainWindow", "4 (Opcional)"))
         self.botonEjecucion.setText(_translate("MainWindow", "Ejecucion"))
 
 

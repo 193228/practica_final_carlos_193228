@@ -2,7 +2,7 @@ def ajusteDatos(ventana): #Obtenemos los datos de la vista
     valores = {}
     try:
         if ventana.radioEpocas.isChecked():
-            epocas = 25
+            epocas = 50
         else:
             epocas = int(ventana.epocas.text())
 
@@ -12,7 +12,7 @@ def ajusteDatos(ventana): #Obtenemos los datos de la vista
             eta = float(ventana.inputGeneraciones.text())
 
         if ventana.radioLote.isChecked():
-            lote = 32
+            lote = 4
         else:
             lote = int(ventana.lote.text())
 
